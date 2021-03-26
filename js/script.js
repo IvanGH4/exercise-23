@@ -40,3 +40,23 @@ setInterval(() => {
   circle2.style.top = `-${top2}px`;
   circle3.style.top = `-${top3}px`;
 }, 700);
+
+window.sr = ScrollReveal();
+
+sr.reveal(".reveal", {
+  duration: 2000,
+  origin: "left",
+  distance: "500px",
+});
+
+sr.reveal(".offers-row", {
+  duration: 3000,
+  origin: "right",
+  distance: "500px",
+});
+
+sr.reveal(".reveal-blog", {
+  duration: 3000,
+  origin: "left",
+  distance: "500px",
+});
