@@ -1,0 +1,50 @@
+footer {
+  background-color: $dark;
+  padding: 4rem 0;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 40px;
+    background-image: url("../../img/curveWhite.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transform: rotate(180deg);
+  }
+
+  h2 {
+    text-align: center;
+    color: $info;
+  }
+
+  .form-label,
+  .form-check-label {
+    color: $light;
+  }
+
+  .input-wrapper {
+    margin: 1rem 0;
+  }
+
+  .btn {
+    width: 100%;
+    margin-top: 0.7rem;
+    color: $light;
+  }
+
+  hr {
+    margin: 2rem 0;
+    color: $secondary;
+  }
+
+  small {
+    color: $secondary;
+  }
+  .info {
+    text-align: right;
+  }
+}

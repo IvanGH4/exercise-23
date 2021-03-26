@@ -1,0 +1,24 @@
+.post {
+  margin-bottom: 2rem;
+
+  &:nth-child(2n) {
+    border-left: solid 2px rgba(0, 0, 0, 0.4);
+  }
+  .post-img-wrapper {
+    margin-right: 0.5rem;
+    img {
+      object-fit: cover;
+      width: 100%;
+      border-radius: 5px 0px 0px 5px;
+    }
+  }
+
+  p {
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0.7rem 0;
+  }
+
+  .btn {
+    color: $light;
+  }
+}
